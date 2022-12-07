@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilos-->
+    <style>
+        .header_Container{
+            background-color:#094356;
+            height:85px;
+            /*margin-bottom:10px;*/
+        }
+        .Grande_1{
+            color:white;
+            padding:25px;
+        }
+        .nav_Container{
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            font-size:20px;
+            width:100%;
+            margin:auto;
+            color:white;
+            background-color:white;
+        }
+
+        .nav_Container ul{
+            display:flex;
+        }
+
+        .nav_Container ul li{
+            padding:10px;
+        }
+
+        .nav_Container ul li a{
+            padding:10px;
+            color:black;
+            margin:30px;
+        }
+
+        .nav_Container ul li a:hover{
+            border-bottom:2px solid white;
+            opacity:.5;
+            font-size:24px;
+            color:#633974;
+        }
+
+        ul{
+            list-style:none;
+        }
+
+    </style>
+    <!--Estilos-->
+</head>
+<body>
+    <!--Header_Inicio-->
+    <header class="header_Container">
+        <h1 class="Grande_1">
+            {{Titulo}}
+        </h1>
+    </header>
+    <!--Header_Final-->
+    <!--Nav_Container_Inicio-->
+    <nav class="nav_Container">
+        <ul>
+            <li><a href="Programacion" >Programacion</a></li>
+            <li><a href="DiseñadorTIC" >Diseñador_TIC</a></li>
+            <li><a href="Ciberseguridad" >CiberSeguridad</a></li>
+            <li><a href="Mecatronica" >Mecatronica</a></li>
+            <li><a href="IA" >Inteligencia_Artificial</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <!--Nav_Container_Final-->
+</body>
+</html>

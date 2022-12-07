@@ -1,0 +1,76 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    font-size:16px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2315b7d3' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+.header_Container{
+    background-color:#094356;
+    height:85px;
+}
+
+.Texto1{
+    color:white;
+    padding:25px;
+}
+
+.container{
+    background-color:white;
+    width:90%;
+    margin:auto;
+}
+
+.nav_Container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    font-size:20px;
+    width:100%;
+    margin:auto;
+    color:white;
+    background-color:white;
+}
+
+.nav_Container ul{
+    display:flex;
+}
+
+.nav_Container ul li{
+    padding:10px;
+}
+
+.nav_Container ul li a{
+    padding:10px;
+    color:black;
+    margin:30px;
+}
+
+.nav_Container ul li a:hover{
+    border-bottom:2px solid white;
+    opacity:.5;
+    font-size:24px;
+    color:#633974;
+}
+
+.table_Container{
+    width:70%;
+    margin:auto;
+    border:3px solid black;
+}
+
+th{
+    color:white;
+    background-color:#979A9A;
+    height:35px;
+}
+td{
+    height:30px;
+}
